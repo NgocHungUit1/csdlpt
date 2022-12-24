@@ -1,0 +1,6 @@
+Câu 1
+
+select makh, tongtien from hoadon order by tongtien desc limit 3;
+
+Câu 2
+SELECT DISTINCT *FROM (MATCH{CLASS:NHANVIEN, AS: P}-TuNhanVien-{CLASS:HoaDon, AS: M} return P.hoten,Count(M.mahd) AS SOLANLAP Group BY P.manv ORDER BY soluong DESC LIMIT 5)

@@ -1,0 +1,171 @@
+#taoclass
+create class KhachHang extends V
+create class HoaDon extends V
+create class ChiNhanh extends V
+create class DichVu extends V
+create class PhieuDichVu extends V
+create class CT_PhieuDichVu extends V
+create class Phong extends V
+create class LoaiPhong extends V
+create class PhieuThuePhong extends V
+create class CT_PhieuThuePhong extends V
+
+#taobien
+#class KhachHang
+create class KhachHang extends V
+create property KhachHang.MaKH string
+create property KhachHang.TenKH string
+create property KhachHang.CMND string
+create property KhachHang.QuocTich string
+create property KhachHang.NgSinh string
+create property KhachHang.DChi string
+create property KhachHang.LoaiKH string
+create property KhachHang.MaCN string
+
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich, NgSinh, DChi, LoaiKH, MaCN) VALUES (‘KH1’, ‘Nguyen Ngoc Hung’, ‘2858001’, ‘Viet Nam’, ‘08/07/1998’, ‘HCM’, ‘Thong thuong’, ‘CN1’); 
+
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich,NgSinh,DChi,LoaiKH,MaCN) VALUES (‘KH2’, ‘Tran Cao Minh Triet’, ‘2858012’, ‘Viet Nam’, ‘09/07/1996’, ‘HCM’, ‘Vip’, ‘CN1’); 
+
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich,NgSinh,DChi,LoaiKH,MaCN) VALUES (‘KH3’, ‘Truong Nguyen Thanh Tu’, ‘2858032’, ‘Viet Nam’, ‘08/01/1999’, ‘HCM’, ‘Thong thuong’, ‘CN1’); 
+
+ 
+
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich,NgSinh,DChi,LoaiKH,MaCN)  VALUES (‘KH4’, ‘Nguyen Viet Anh, ‘2858090’, ‘Viet Nam’, ‘11/01/1999’, ‘Da Nang’, ‘Vip’, ‘CN2’); 
+
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich,NgSinh,DChi,LoaiKH,MaCN)  VALUES (‘KH5’, ‘Tran Tieu Vy, ‘2858110’, ‘Viet Nam’, ‘12/09/1999’, ‘Da Nang’, ‘Vip’, ‘CN2’); 
+
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich,NgSinh,DChi,LoaiKH,MaCN)  VALUES (‘KH6’, ‘Ha Kieu My, ‘2858120’, ‘Viet Nam’, ‘02/09/1989’, ‘Da Nang’, ‘Thong thuong’, ‘CN2’); 
+
+
+#NhanVien
+create class NhanVien extends V
+create property NhanVien.manv string
+create property NhanVien.hoten string
+create property NhanVien.maql string
+create property NhanVien.sodt string
+create property NhanVien.luong decimal
+create property NhanVien.macn string
+
+INSERT INTO NhanVien (manv,hoten,maql,sodt,luong,macn) VALUES (‘NV1’,’Nguyen Van Mot’,‘QL1’, ‘0933374002’, 10000000, ‘CN1’); 
+INSERT INTO NhanVien (manv,hoten,maql,sodt,luong,macn) VALUES (‘NV2’,’Nguyen Huu Hai’ , ‘QL1’, ‘0933375042’, 11000000, ‘CN1’); 
+INSERT INTO NhanVien (manv,hoten,maql,sodt,luong,macn) VALUES (‘NV3’,’Tran Thi Ba’ , ‘QL1’,‘0933235042’,10000000,  ‘CN1’); 
+INSERT INTO NhanVien (manv,hoten,maql,sodt,luong,macn) VALUES (‘NV4’,’Le Kha Banh’ , ‘QL1’, ‘0943035042’,12000000, ‘CN1’); 
+INSERT INTO NhanVien (manv,hoten,maql,sodt,luong,macn) VALUES (‘NV5’,’Nguyen Khong Nam’ , ‘QL1’, ‘0933231142’,  10000000, ‘CN1’); 
+ 
+ 
+INSERT INTO NhanVien (manv,hoten,maql,sodt,luong,macn)  VALUES (‘NV6’,’Nguyen Phut Mot’ , QL2, ‘0933314002’, 9000000, ‘CN2’); 
+INSERT INTO NhanVien (manv,hoten,maql,sodt,luong,macn) VALUES (‘NV7’,’Tran Bay’ , ‘QL2’, ‘0931275042’, 9000000, ‘CN2’); 
+INSERT INTO NhanVien (manv,hoten,maql,sodt,luong,macn) VALUES (‘NV8’,’Le Thi Tam’ , ‘QL2’, ‘0833235042’, 8000000, ‘CN2’); 
+INSERT INTO NhanVien (manv,hoten,maql,sodt,luong,macn) VALUES (‘NV9’,’Tran Kha Banh’ , ‘QL2’, ‘0743035042’, 7500000, ‘CN2’); 
+INSERT INTO NhanVien (manv,hoten,maql,sodt,luong,macn) VALUES (‘NV10’,’Ha Ngoc Muoi’ , ‘QL2’, ‘0233231142’,7000000, ‘CN2’); 
+ 
+
+
+
+
+#HoaDon
+create class HoaDon extends V
+create property HoaDon.mahd string
+create property HoaDon.tongtien decimal
+create property HoaDon.ngaytt string
+create property HoaDon.manv string
+create property HoaDon.makh string
+create property HoaDon.maptp string
+create property HoaDon.mapdv string
+
+
+
+
+
+#Phong
+create class Phong extends V
+create property Phong.maph string
+create property Phong.maloaiph string
+create property Phong.tinhtrang string
+create property Phong.ghichu string
+create property Phong.macn string
+
+CN2
+(
+INSERT INTO Phong (maph,maloaiph,tinhtrang,ghichu,macn) VALUES (‘PH6’, ‘Dang thue’, ‘Phong don’, ‘LP1’, ‘CN2’); 
+
+INSERT INTO Phong (maph,maloaiph,tinhtrang,ghichu,macn) VALUES (‘PH7’, ‘Dang thue’, ‘Phong doi’, ‘LP2’, ‘CN2’); 
+
+INSERT INTO Phong (maph,maloaiph,tinhtrang,ghichu,macn) VALUES (‘PH8’, ‘Trong’, ‘Phong don’, ‘LP1’, ‘CN2’); 
+
+INSERT INTO Phong (maph,maloaiph,tinhtrang,ghichu,macn) VALUES (‘PH9’, ‘Dang thue’, ‘Phong don’, ‘LP1’, ‘CN2’); 
+
+INSERT INTO Phong (maph,maloaiph,tinhtrang,ghichu,macn) VALUES (‘PH10’, ‘Trong’, ‘Phong doi’, ‘LP2’, ‘CN2’); )
+
+CN1
+{
+INSERT INTO Phong  (maph,maloaiph,tinhtrang,ghichu,macn) VALUES (‘PH1’, ‘Dang thue’, ‘Phong don’, ‘LP1’, ‘CN1’); 
+INSERT INTO Phong  (maph,maloaiph,tinhtrang,ghichu,macn) VALUES (‘PH2’, ‘Dang thue’, ‘Phong doi’, ‘LP2’, ‘CN1’); 
+INSERT INTO Phong  (maph,maloaiph,tinhtrang,ghichu,macn) VALUES (‘PH3’, ‘Dang thue’, ‘Phong don’, ‘LP1’, ‘CN1’); 
+INSERT INTO Phong  (maph,maloaiph,tinhtrang,ghichu,macn) VALUES (‘PH4’, ‘Trong’, ‘Phong don’, ‘LP1’, ‘CN1’); 
+INSERT INTO Phong  (maph,maloaiph,tinhtrang,ghichu,macn) VALUES (‘PH5’, ‘Trong’, ‘Phong doi’, ‘LP2’, ‘CN1’); 
+
+}
+
+#PhieuThuePhong
+create class PhieuThuePhong extends V
+create property PhieuThuePhong.maptp string
+create property PhieuThuePhong.tientp decimal
+
+#CT_PhieuThuePhong
+create class CT_PhieuThuePhong extends V
+create property CT_PhieuThuePhong.maptp string
+create property CT_PhieuThuePhong.maph string
+create property CT_PhieuThuePhong.slnguoi integer
+create property CT_PhieuThuePhong.phuthu float
+create property CT_PhieuThuePhong.ngaynp string
+create property CT_PhieuThuePhong.ngaytptt datetime xóa bỏ
+
+#ChiNhanh
+create class ChiNhanh extends V 
+create property ChiNhanh.macn string
+create property ChiNhanh.tencn string
+create property ChiNhanh.thanhpho string
+
+
+
+INSERT INTO ChiNhanh (MACN, TENCN, THANHPHO) VALUES (‘CN1’, ‘Chi nhanh 1’, ‘HCM’); 
+INSERT INTO ChiNhanh (MACN, TENCN, THANHPHO) VALUES (‘CN2’, ‘Chi nhanh 2’, ‘Da Nang’); 
+ 
+
+
+#LoaiPhong
+create class LoaiPhong extends V
+create property LoaiPhong.maloaiph string
+create property LoaiPhong.tenloaiph string
+create property LoaiPhong.dongia decimal
+create property LoaiPhong.songuoi integer
+create property LoaiPhong.ghichu string
+
+Insert into LoaiPhong (maloaiph, tenloaiph, dongia, songuoi, ghichu) values (‘LP1’, ‘EC’, 150000, 1, ‘Phong don’); 
+Insert into LoaiPhong (maloaiph, tenloaiph, dongia, songuoi, ghichu) values (‘LP2’, ‘PRE’, 300000, 2, ‘Phong doi’); 
+
+
+#DichVu
+create class DichVu extends V 
+create property DichVu.madv string
+create property DichVu.tendv string
+create property DichVu.giadv decimal
+
+INSERT INTO DichVu (madv,tendv,giadv)  VALUES (‘DV1’, ‘Coca’, 20000); 
+INSERT INTO DichVu (madv,tendv,giadv) VALUES (‘DV2’, ‘Pepsi’, 20000); 
+INSERT INTO DichVu (madv,tendv,giadv) VALUES (‘DV3’, ‘7UP’, 20000); 
+INSERT INTO DichVu (madv,tendv,giadv) VALUES (‘DV4’, ‘Nuoc ep cac loai’, 30000); 
+INSERT INTO DichVu (madv,tendv,giadv) VALUES (‘DV5’, ‘Mi ly’, 15000); 
+INSERT INTO DichVu (madv,tendv,giadv) VALUES (‘DV6’, ‘Mi xao bo’, 59000); 
+INSERT INTO DichVu (madv,tendv,giadv) VALUES (‘DV7’, ‘Banh canh cua’, 59000); 
+INSERT INTO DichVu (madv,tendv,giadv) VALUES (‘DV8’, ‘Pho ga’, 59000); 
+INSERT INTO DichVu (madv,tendv,giadv) VALUES (‘DV9’, ‘Hu tieu nam vang’, 59000); 
+INSERT INTO DichVu (madv,tendv,giadv) VALUES (‘DV10’, ‘Hu tieu bo kho’, 59000); 
+ 
+
+
+#PhieuDichVU
+create class PhieuDichVu extends V 
+create property PhieuDichVu.mapdv string
+create property PhieuDichVu.tiendv decimal
