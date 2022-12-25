@@ -1,0 +1,10 @@
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich, NgSinh, DChi, LoaiKH, MaCN) VALUES ('KH1', 'Quach Hong Tuyet', '2858100', 'Viet Nam', '08/07/1969', 'HCM', 'Thong thuong', 'CN1'); 
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich, NgSinh, DChi, LoaiKH, MaCN) VALUES ('KH2', 'Le Thanh Ha', '2858162', 'Viet Nam', '08/07/1964', 'HCM', 'Thong thuong', 'CN1'); 
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich, NgSinh, DChi, LoaiKH, MaCN) VALUES ('KH3', 'Trinh Khanh Hung', '2858127', 'Viet Nam', '08/07/1961', 'HCM', 'Thong thuong', 'CN1'); 
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich, NgSinh, DChi, LoaiKH, MaCN) VALUES ('KH4', 'Quach Khanh Khoa', '2858127', 'Viet Nam', '08/07/1936', 'HCM', 'Thong thuong', 'CN1'); 
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich, NgSinh, DChi, LoaiKH, MaCN) VALUES ('KH5', 'Quach Hai Khoa', '2858153', 'Viet Nam', '08/07/1992', 'HCM', 'Thong thuong', 'CN1'); 
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich, NgSinh, DChi, LoaiKH, MaCN) VALUES ('KH6', 'Dinh Thai Lan', '2858118', 'Viet Nam', '08/07/1995', 'HCM', 'Thong thuong', 'CN1'); 
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich, NgSinh, DChi, LoaiKH, MaCN) VALUES ('KH7', 'Bui Quynh Hung', '2858138', 'Viet Nam', '08/07/1969', 'HCM', 'Thong thuong', 'CN1'); 
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich, NgSinh, DChi, LoaiKH, MaCN) VALUES ('KH8', 'Dinh Hong ', '2858135', 'Viet Nam', '08/07/1994', 'HCM', 'Thong thuong', 'CN1'); 
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich, NgSinh, DChi, LoaiKH, MaCN) VALUES ('KH9', 'Tran Thai Khoa', '2858133', 'Viet Nam', '08/07/1973', 'HCM', 'Thong thuong', 'CN1'); 
+INSERT INTO KhachHang (MaKH, TenKH, CMND, QuocTich, NgSinh, DChi, LoaiKH, MaCN) VALUES ('KH10', 'Le Thai Hung', '2858153', 'Viet Nam', '08/07/1968', 'HCM', 'Thong thuong', 'CN1'); 

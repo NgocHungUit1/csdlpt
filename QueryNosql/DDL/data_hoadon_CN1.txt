@@ -1,0 +1,11 @@
+INSERT INTO HOADON (mahd,tongtien,ngaytt,manv,makh,maptp,mapdv) VALUES ('HD001',3895000,'2/12/2022','NV2','KH1','PTP001','PDV001'); 
+INSERT INTO HOADON (mahd,tongtien,ngaytt,manv,makh,maptp,mapdv) VALUES ('HD002',1616000,'3/12/2022','NV3','KH2','PTP002','PDV002'); 
+INSERT INTO HOADON (mahd,tongtien,ngaytt,manv,makh,maptp,mapdv) VALUES ('HD003',4000000,'4/12/2022','NV5','KH3','PTP003','PDV003'); 
+INSERT INTO HOADON (mahd,tongtien,ngaytt,manv,makh,maptp,mapdv) VALUES ('HD004',229000,'5/12/2022','NV1','KH4','PTP004','PDV004'); 
+INSERT INTO HOADON (mahd,tongtien,ngaytt,manv,makh,maptp,mapdv) VALUES ('HD005',4290000,'6/12/2022','NV5','KH5','PTP005','PDV005'); 
+INSERT INTO HOADON (mahd,tongtien,ngaytt,manv,makh,maptp,mapdv) VALUES ('HD006',150000,'7/12/2022','NV5','KH6','PTP006','PDV006'); 
+INSERT INTO HOADON (mahd,tongtien,ngaytt,manv,makh,maptp,mapdv) VALUES ('HD007',150000,'8/12/2022','NV4','KH7','PTP007','PDV007'); 
+INSERT INTO HOADON (mahd,tongtien,ngaytt,manv,makh,maptp,mapdv) VALUES ('HD008',150000,'9/12/2022','NV4','KH8','PTP008','PDV008'); 
+INSERT INTO HOADON (mahd,tongtien,ngaytt,manv,makh,maptp,mapdv) VALUES ('HD009',1765000,'10/12/2022','NV3','KH9','PTP009','PDV009'); 
+INSERT INTO HOADON (mahd,tongtien,ngaytt,manv,makh,maptp,mapdv) VALUES ('HD0010',2550000,'11/12/2022','NV5','KH10','PTP0010','PDV0010'); 
+INSERT INTO HOADON (mahd,tongtien,ngaytt,manv,makh,maptp,mapdv) VALUES ('HD0011',150000,'12/12/2022','NV1','KH1','PTP0011','PDV0011'); 

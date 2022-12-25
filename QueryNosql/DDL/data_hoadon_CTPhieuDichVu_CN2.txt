@@ -1,0 +1,9 @@
+INSERT INTO CT_PHIEUDICHVU (mapdv,madv,sldv,ngaysd) VALUES ('PDV001','DV6','1','2/12/2022'); 
+INSERT INTO CT_PHIEUDICHVU (mapdv,madv,sldv,ngaysd) VALUES ('PDV001','DV8','4','2/12/2022'); 
+INSERT INTO CT_PHIEUDICHVU (mapdv,madv,sldv,ngaysd) VALUES ('PDV001','DV1','5','2/12/2022'); 
+INSERT INTO CT_PHIEUDICHVU (mapdv,madv,sldv,ngaysd) VALUES ('PDV002','DV7','4','3/12/2022'); 
+INSERT INTO CT_PHIEUDICHVU (mapdv,madv,sldv,ngaysd) VALUES ('PDV002','DV3','4','3/12/2022'); 
+INSERT INTO CT_PHIEUDICHVU (mapdv,madv,sldv,ngaysd) VALUES ('PDV004','DV8','1','5/12/2022'); 
+INSERT INTO CT_PHIEUDICHVU (mapdv,madv,sldv,ngaysd) VALUES ('PDV004','DV1','1','5/12/2022'); 
+INSERT INTO CT_PHIEUDICHVU (mapdv,madv,sldv,ngaysd) VALUES ('PDV005','DV8','10','6/12/2022'); 
+INSERT INTO CT_PHIEUDICHVU (mapdv,madv,sldv,ngaysd) VALUES ('PDV005','DV1','10','6/12/2022'); 

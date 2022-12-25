@@ -1,0 +1,7 @@
+INSERT INTO CT_PHIEUTHUEPHONG (maptp,maph,slng,phutu,ngaynp) VALUES ('PTP001','PH19','5','0','2/12/2022'); 
+INSERT INTO CT_PHIEUTHUEPHONG (maptp,maph,slng,phutu,ngaynp) VALUES ('PTP002','PH6','2','0','3/12/2022'); 
+INSERT INTO CT_PHIEUTHUEPHONG (maptp,maph,slng,phutu,ngaynp) VALUES ('PTP002','PH11','2','0','3/12/2022'); 
+INSERT INTO CT_PHIEUTHUEPHONG (maptp,maph,slng,phutu,ngaynp) VALUES ('PTP003','PH16','3','0','4/12/2022'); 
+INSERT INTO CT_PHIEUTHUEPHONG (maptp,maph,slng,phutu,ngaynp) VALUES ('PTP003','PH17','3','0','4/12/2022'); 
+INSERT INTO CT_PHIEUTHUEPHONG (maptp,maph,slng,phutu,ngaynp) VALUES ('PTP004','PH1','1','0','5/12/2022'); 
+INSERT INTO CT_PHIEUTHUEPHONG (maptp,maph,slng,phutu,ngaynp) VALUES ('PTP005','PH20','5','0','6/12/2022'); 
